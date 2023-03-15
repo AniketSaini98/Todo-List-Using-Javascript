@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo Web App</title>
+
+	<meta name="description" content="this is my todo list app">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="author" content="Aniket Saini">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<!-- Google Font :  -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&family=Raleway:wght@400;500;600;700;800&family=Righteous&display=swap" rel="stylesheet">
+	
+	<!-- Google Font : 'Josefin Sans' -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,600&family=Raleway:wght@400;500;600;700;800&family=Righteous&display=swap" rel="stylesheet">
+
+	<!-- Main stylesheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<header id="main-header">
+		<div class="container">
+			<h1>Todo List</h1>
+
+			<form action="" id="todo-form">
+				<input type="text" name="task-name" placeholder="e.g: Add your day-to-day task here...." autofocus>
+				<button type="submit">Add Task</button>
+			</form>
+		</div>
+	</header>
+
+	<section>
+		<div class="container" id="main-container">
+			<ul class="stats">
+				<li>
+					<span>Remaining</span>
+					<span id="remaining-tasks">0</span>
+				</li>
+
+				<li>
+					<span>Completed</span>
+					<span id="completed-tasks">0</span>
+				</li>
+
+				<li>
+					<span>Total</span>
+					<span id="total-tasks">0</span>
+				</li>
+			</ul>
+
+			<ul class="todos">
+	
+			</ul>
+		</div>
+	</section>
+
+	<footer id="footer">
+		<div class="container">
+			<p>
+				<small>Design By <a href="https://www.linkedin.com/in/aniketsaini65" target="_blank">Aniket Saini</a>, Code by <a href="https://www.github.com/aniketsaini98" target="_blank">Aniket Saini</a>, and <a href="https://www.twitter.com/aniketsaini56" target="_blank">Follow me on Twitter.</a></small>
+			</p>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
